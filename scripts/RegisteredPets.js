@@ -4,8 +4,6 @@ const pets = getPets()
 const walkers = getWalkers()
 
 
-
-
 document.addEventListener(
     "click",
     (clickEvent) => {
@@ -38,7 +36,7 @@ document.addEventListener(
 
 
 
-
+                                    //These did not work.
 
 
     // intial attempt
