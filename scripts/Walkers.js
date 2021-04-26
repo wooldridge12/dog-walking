@@ -1,5 +1,7 @@
 import { getWalkers } from "./database.js"
 
+const walkers = getWalkers()
+
 document.addEventListener(
     "click",
     (clickEvent) => {
@@ -16,7 +18,6 @@ document.addEventListener(
     }
 )
 
-const walkers = getWalkers()
 
 
 export const Walkers = () => {
